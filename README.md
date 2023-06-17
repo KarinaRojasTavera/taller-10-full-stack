@@ -13,6 +13,10 @@
 <h2>punto 4:</h2>
 
 <h2>punto 5-6-7:</h2>
+<h3>5 - Base de datos</h3>
+<img src="./public/images/mysql.png" 
+alt="mysql">
+<hr>
 
 
 
