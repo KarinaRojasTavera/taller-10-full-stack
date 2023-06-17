@@ -1,4 +1,4 @@
-<h1>Taller Unidad 10: Karina Rojas Tavera</h1>
+<h1>Taller 10: Karina Rojas Tavera</h1>
 <hr>
 <h2>Información</h2>
 <p>Curso: Full Stack Basico-Grupo 1 <p>
