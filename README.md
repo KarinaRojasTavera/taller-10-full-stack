@@ -18,7 +18,7 @@
 alt="mysql">
 <hr>
 <h3>6 - Conexión</h3>
-<img src="./public/images/connection.png" 
+<img src="./public/images/conection.png" 
 alt="connection">
 <hr>
 
