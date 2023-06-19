@@ -8,11 +8,11 @@
     <title>PUNTO -5-6-7</title>
 </head>
 <body>
-  <h1>Punto -5-6-7 - muestra de datos PHP</h1>
+  <h1>Proyecto base de datos</h1>
   <hr>
 
-  <?php include"./view/components/firstSection.php";?>
-  <?php include"./view/components/secondSection.php";?>
+  <?php include"./service/connection.php"; ?> 
+  
  
 </body>
 </html>
