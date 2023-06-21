@@ -21,7 +21,10 @@ alt="mysql">
 <img src="./public/images/conection.png" 
 alt="connection">
 <hr>
-
+<h3>7 - Muestra de datos en pantalla</h3>
+<img src="./public/images/bd.png" 
+alt="bd">
+<hr>
 
 
 
