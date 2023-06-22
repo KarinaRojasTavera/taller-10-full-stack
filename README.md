@@ -5,11 +5,23 @@
 <p>Profesor: Cristian Patiño<p>
 <hr>
 <h2>punto 1:</h2>
+<h3>Dos Números ingresados por usuario y escojer una operacion matematica</h3>
+<img src="./public/images/dosnumeros.png" 
+alt="dosnumerosenteros">
+<h3>imagen del calculo con decimales</h3>
+<img src="./public/images/calculofloat.png" 
+alt="numerosfloat">
+<hr>
 
 <h2>punto 2:</h2>
+<h3>ingresando la edad, saber si se es o no mayor de edad</h3>
+<img src="./public/images/mayormenoredad.png" 
+alt="mayor o menor de edad">
+<hr>
+
 
 <h2>punto 3:</h2>
-<h3>3 - Pedir Nombre Apellido y Cedula al usuario</h3>
+<h3> Pedir Nombre Apellido y Cedula al usuario</h3>
 <img src="./public/images/imagen3.png" 
 alt="imagen3">
 <hr>

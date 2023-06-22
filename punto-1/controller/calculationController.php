@@ -1,9 +1,9 @@
 <?php
-$resultado = 0;
-$firstNumber = 0;
-$secondNumber = 0;
-$operationType = "";
-$mensaje = "";
+  $resultado = 0;
+  $firstNumber = 0;
+  $secondNumber = 0;
+  $operationType = "";
+  $mensaje = "";
 
 if(isset($_POST["first_number"]) &&
    isset($_POST["second_number"]) &&
@@ -17,22 +17,27 @@ if(isset($_POST["first_number"]) &&
 
         case "SUMA":
             $resultado = $firstNumber + $secondNumber;
+            $mensaje = "El resultado de la suma es: " .  $resultado;
             break;
                         
         case "RESTA":
             $resultado = $firstNumber - $secondNumber;
+            $mensaje = "El resultado de la resta  es: " .  $resultado;
             break;
+            
     
         case "MULTIPLICACION":
             $resultado = $firstNumber * $secondNumber;
+            $mensaje = "El resultado de la multiplicacion   es: " .  $resultado;
             break;
     
         case "DIVISION":
             $resultado = $firstNumber / $secondNumber;
+            $mensaje = "El resultado de la division   es: " .  $resultado;
             break;
-            default:
-      $mensaje= "Opción inválida.";
-        break;      
+        default:
+            $mensaje= "Opción inválida.";
+            break;      
 
         }
 }

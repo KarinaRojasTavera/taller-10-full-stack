@@ -1,30 +1,27 @@
 <?php include "./controller/calculationController.php" ?>
 
 <form method="post">
-<h2>Nombre de Usuario y Edad</h2>
+<h2>Calculadora para la Mayoria de Edad</h2>
 <div class="form__row">
   <div>
     <label for="nombre-usuario">
-      Nombre Usuario
+      Nombre de Usuario
     </label>
     <input 
     id= "nombre-usuario"
     type="text"
     name="nombre_usuario"
-    placeholder="Pepito"
+    placeholder="Pepito Perez"
    >
-  </div>  
-</div>
-<div>
-<div>
-    <label for="edad-usuario">
-      Edad Usuario
+  </div>
+  <div>
+    <label for="fecha-nacimiento">
+      Fecha de Nacimiento
     </label>
     <input 
-      id= "edad-usuario"
-      type="text"
-      name="edad_usuario"
-      placeholder="25"
+      id= "fecha-nacimiento"
+      type="date"
+      name="fecha_nacimiento"      
      >    
   </div>
 </div>

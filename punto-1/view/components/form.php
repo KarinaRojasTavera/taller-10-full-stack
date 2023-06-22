@@ -2,7 +2,7 @@
 
 <form method="post">
 <h2>Mostrar el Resultado de la Operación</h2>
-<div class="form__row">
+<div class="form__row">  
   <div>
     <label for="primer-numero">
       Ingresar primer número
@@ -24,7 +24,9 @@
     name="second_number"
     placeholder="2"
   >
-  </div>
+  </div> 
+</div>
+<div>
   <div>
     <label for="  operacion-ejecutar">
       Operacion a ejecutar
@@ -33,10 +35,10 @@
       id="operacion-ejecutar"
       name="operacion_ejecutar"
     >
-      <option value="sum">Suma</option>
-      <option value="res">Resta</option>
-      <option value="mul">Multiplicación</option>
-      <option value="div">División</option>      
+      <option value="SUMA">Suma</option>
+      <option value="RESTA">Resta</option>
+      <option value="MULTIPLICACION">Multiplicación</option>
+      <option value="DIVISION">División</option>      
     </select>          
   </div>
 </div>
