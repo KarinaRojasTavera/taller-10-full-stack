@@ -6,7 +6,7 @@
 <hr>
 <h2>punto 1:</h2>
 <h3>1-Dos Números ingresados por usuario y escojer una operacion matematica</h3>
-<img src="./public/images/dosnumeros.png" 
+<img src="./public/images/puntounof.png" 
 alt="dosnumerosenteros">
 <h3>imagen del calculo con decimales</h3>
 <img src="./public/images/calculofloat.png" 
@@ -15,21 +15,21 @@ alt="numerosfloat">
 
 <h2>punto 2:</h2>
 <h3>2-ingresando la edad, saber si se es o no mayor de edad</h3>
-<img src="./public/images/mayormenoredad.png" 
+<img src="./public/images/puntodosf.png" 
 alt="mayor o menor de edad">
 <hr>
 
 
 <h2>punto 3:</h2>
 <h3>3-Pedir Nombre Apellido y Cedula al usuario</h3>
-<img src="./public/images/imagen3.png" 
+<img src="./public/images/puntotresf.png" 
 alt="imagen3">
 <hr>
 
 <h2>punto 4:</h2>
 
 
-<h2>punto 5-6-7:</h2>
+<h2>punto 5-6-7:</h2>C74-JUNIO 20-
 <h3>5 - Base de datos</h3>
 <img src="./public/images/mysql.png" 
 alt="mysql">
@@ -41,7 +41,7 @@ alt="connection">
 <hr>
 
 <h3>7 - Muestra de datos en pantalla</h3>
-<img src="./public/images/bd.png" 
+<img src="./public/images/puntosiete.png" 
 alt="bd">
 <hr>
 

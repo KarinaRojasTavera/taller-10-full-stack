@@ -12,5 +12,10 @@
 <hr>
 <?php include "./view/components/form.php" ?>
 <?php include "./view/components/result.php" ?>
+
+<div class="go-back">
+    <a href="../index.php">Volver a la pagina anterior</a>
+</div>
+
 </body>
 </html>

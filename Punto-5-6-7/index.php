@@ -11,7 +11,12 @@
 <body>
   <h1>Proyecto base de datos</h1>
   <hr>
-  <?php include"./view/components/table.php"; ?>  
+  <?php include"./view/components/table.php"; ?> 
+  
+  <div class="go-back">
+    <a href="../index.php">Volver a la pagina anterior</a>
+</div>
+
 </body>
 </html>
 

@@ -19,7 +19,7 @@
             Punto 1: Operación de dos números
           </p> 
           <a href="./punto-1">
-            Punto 1 Demo
+            Punto 1 Demo           
           </a>
         </li>
         <li>
@@ -52,7 +52,8 @@
           </p>
           <a href="./punto-5-6-7">
             Proyecto Demo
-          </a>
+          </a>         
+  </div>
         </li>
       </ul>
     </nav>
