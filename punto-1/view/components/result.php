@@ -1,13 +1,11 @@
-
 <div>
-  <p>Total a pagar:</p>
+  <p>El resultado de la operacion matematica es:</p>
 
-  <?php if ($message !="") { ?>
-    <p><?php echo $message; ?></p>
+  <?php if ($mensaje !="") { ?>
+    <p><?php echo $mensaje; ?></p>
   <?php } ?>
 
-  <h3><?php echo "$". number_format($totalPrice); ?></h3>
-</div>
+  </div>
 
 
 

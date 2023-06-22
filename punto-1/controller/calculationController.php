@@ -1,37 +1,44 @@
-<?php 
-  const TICKET_PRICE = 25000;
-  $totalPrice = 0;
-  $message = "";
-  
-  if (isset ($_POST ["number_person"]) && 
-      isset ($_POST ["membership_type"])) {
+<?php
+$resultado = 0;
+$firstNumber = 0;
+$secondNumber = 0;
+$operationType = "";
+$mensaje = "";
 
-     $numberPerson = intval($_POST ["number_person"]);
-     $membershipType = $_POST ["membership_type"];
-      
-     $totalPrice = $numberPerson * TICKET_PRICE;
+if(isset($_POST["first_number"]) &&
+   isset($_POST["second_number"]) &&
+   isset($_POST["operacion_ejecutar"])) {
 
-     switch ($membershipType) {
-      case "A":
-        $totalPrice = $totalPrice - ($totalPrice * 0.3);
-        break;
-      case "B":
-        $totalPrice = $totalPrice - ($totalPrice * 0.25);
-        break;
-      case "C":
-        $totalPrice = $totalPrice - ($totalPrice * 0.1);
-        break;
-      case "D":
-        $totalPrice = $totalPrice - ($totalPrice * 0.05);
-        break;
-      default:
-      $message = "Usted no tiene menbresia, por lo tanto no tiene descuento";
-      }       
-     
-   }
+    $firstNumber = floatval($_POST["first_number"]);
+    $secondNumber = floatval($_POST["second_number"]);
+    $operationType = $_POST["operacion_ejecutar"]; 
+    
+    switch($operationType) {
 
-   
+        case "SUMA":
+            $resultado = $firstNumber + $secondNumber;
+            break;
+                        
+        case "RESTA":
+            $resultado = $firstNumber - $secondNumber;
+            break;
+    
+        case "MULTIPLICACION":
+            $resultado = $firstNumber * $secondNumber;
+            break;
+    
+        case "DIVISION":
+            $resultado = $firstNumber / $secondNumber;
+            break;
+            default:
+      $mensaje= "Opción inválida.";
+        break;      
+
+        }
+}
 ?>
+
+  
 
 
 

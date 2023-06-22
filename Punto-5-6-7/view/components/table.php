@@ -20,6 +20,15 @@
     <td><?php echo $user->getIdNumber(); ?></td>
   </tr>
   <?php } ?>
+
+  //encaso de necesitar manipular la info de un usuario 
+  //se crearia un metodo set,esta linea no se va a usar para 
+  //para el ejercicio
+
+    public function setId ($idP){
+    $this->id = $idP;
+  }
+
  
 </table>
 </div>

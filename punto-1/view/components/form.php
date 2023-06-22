@@ -1,33 +1,42 @@
 <?php include "./controller/calculationController.php" ?>
 
 <form method="post">
-<h2>Calculadora de Entradas</h2>
+<h2>Mostrar el Resultado de la Operación</h2>
 <div class="form__row">
   <div>
-    <label for="person-number">
-      Número de presonas
+    <label for="primer-numero">
+      Ingresar primer número
     </label>
     <input 
-    id="person-number"
+    id="primer-numero"
     type="text"
-    name="number_person"
-    placeholder="5"
+    name="first_number"
+    placeholder="1"
   >
   </div>
   <div>
-    <label for="membership-type">
-      Tipo de Afiliación
+    <label for="segundo-numero">
+      Ingresar segundo número
+    </label>
+    <input 
+    id="segundo-numero"
+    type="text"
+    name="second_number"
+    placeholder="2"
+  >
+  </div>
+  <div>
+    <label for="  operacion-ejecutar">
+      Operacion a ejecutar
     </label>
     <select 
-      id="membership-type"
-      name="membership_type"
+      id="operacion-ejecutar"
+      name="operacion_ejecutar"
     >
-      <option value="A">Afiliación A</option>
-      <option value="B">Afiliación B</option>
-      <option value="C">Afiliación C</option>
-      <option value="D">Afiliación D</option>
-      <option value="E">Afiliación E</option>
-      <option value="F">Afiliación F</option>
+      <option value="sum">Suma</option>
+      <option value="res">Resta</option>
+      <option value="mul">Multiplicación</option>
+      <option value="div">División</option>      
     </select>          
   </div>
 </div>

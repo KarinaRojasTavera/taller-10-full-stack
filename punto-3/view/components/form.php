@@ -28,6 +28,17 @@
       placeholder="Perez"
     >    
   </div>
+  <div>
+  <label for="Cedula-usuario">
+      Cedula del usuario:
+    </label>
+    <input 
+      id= "Cedula-usuario"
+      type="text"
+      name="Cedula_usuario"
+      placeholder="Digite la cedula sin puntos"
+    > 
+  </div>
 </div>
 <button>Registrar</button>
 </form>

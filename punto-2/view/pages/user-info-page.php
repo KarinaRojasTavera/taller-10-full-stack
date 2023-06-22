@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../styles/general-styles.css">
     <link rel="stylesheet" href="../styles/info.css">
-    <title>Punto 3 Resultado</title>
+    <title>Punto 4 Resultado</title>
 </head>
 <body>
   <h1>Datos del usuario</h1>
