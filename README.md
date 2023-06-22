@@ -10,8 +10,8 @@
 
 <h2>punto 3:</h2>
 <h3>3 - Pedir Nombre Apellido y Cedula al usuario</h3>
-<img src="./public/images/datos3.png" 
-alt="datos3">
+<img src="./public/images/imagen3.png" 
+alt="imagen3">
 <hr>
 
 <h2>punto 4:</h2>
