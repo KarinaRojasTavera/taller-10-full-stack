@@ -27,7 +27,7 @@ alt="imagen3">
 <hr>
 
 <h2>punto 4:</h2>
-<h3>5 - Fecha de Nacimiento</h3>
+<h3>4 - Fecha de Nacimiento</h3>
 <img src="./public/images/puntocuatro.png" 
 alt="fechanacimiento">
 <hr>
